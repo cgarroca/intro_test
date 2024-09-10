@@ -5,4 +5,15 @@ date: "2024-09-10"
 output: html_document
 ---
 
+ctrl + alt + i -> chunk of code
+ctrl + option + i
+
+```{r}
+#install.packages("car")
+library(car)
+data <- mtcars
+plot(mtcars$disp)
+```
+
+
 
